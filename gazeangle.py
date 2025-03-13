@@ -9,6 +9,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 import cv2
 import numpy as np
 import math
+import time
 
 import matplotlib.pyplot as plt
 
@@ -53,11 +54,10 @@ if __name__ == "__main__":
     # model = YOLO("runs/pose/trail32/weights/best_yv8.pt")
     # video_path = "Cam_19_10.mp4"
     # video_path = "video_5_tablet.mp4"
-    video_path = "C:/Users/LAMBDA THETA/Videos/batch7-RTSP112/batch_7_13.mp4"#"la_chunks_4.mp4" #"C:/Users/LAMBDA THETA/Downloads/chunk_31-10-24_14-24.avi"
+    video_path = "C:/Users/LAMBDA THETA/Videos/evaluation/chunk_06-03-25_13-32-desk21-22-23-24 - Trim.avi"#"la_chunks_4.mp4" #"C:/Users/LAMBDA THETA/Downloads/chunk_31-10-24_14-24.avi"
     # video_path = "C:/Users/LAMBDA THETA/Downloads/test_bench_02/test_bench_02/Cam_104_batch_5_56.mp4"
     # video_path = "C:/Users/LAMBDA THETA/Downloads/test_bench_02/test_bench_02/Cam_19_10.mp4"
-
-    model = YOLO("runs/pose/trailv11-3/weights/best11_v3.pt")
+    model = YOLO("bestv7-2.pt")
     cap = cv2.VideoCapture(video_path)
     
     while cap.isOpened():
@@ -65,6 +65,7 @@ if __name__ == "__main__":
         if not ret:
             break  # Exit the loop if no more frames are available
 
+        start_time=time.time()
         # Run inference on the current frame
         global center,ymax,ymin,allowed_angle
 
@@ -143,5 +144,6 @@ if __name__ == "__main__":
                 break
 
     # Release video capture and close display window
+        print("fps =", 1.0 / (time.time() - start_time + 0.0001))
     cap.release()
     cv2.destroyAllWindows()
