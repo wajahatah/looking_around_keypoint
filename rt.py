@@ -35,7 +35,7 @@ def get_angle(x1, y1, x2, y2):
 if __name__ == "__main__":
     model = YOLO("bestv7-2_b10.engine", task="pose")  # Load TensorRT engine
     # model = YOLO("bestv7-2.pt", task="pose")  # Load TensorRT engine
-    video_path = "D:/Wajahat/la_chunks/test_bench_3/c13-1.avi"
+    video_path = "E:/Wajahat/la_chunks/test_bench_3/c13-1.avi"
     cap = cv2.VideoCapture(video_path)
     ymin, ymax = 120, 900
     allowed_angle = 60
