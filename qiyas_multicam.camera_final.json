@@ -1,0 +1,557 @@
+[{
+  "_id": "camera_1",
+  "url": "D:/Wajahat/la_chunks/test_bench_3/c13-1.avi",
+  "enable": "true",
+  "cluster": "cluster_1",
+  "i_angle": 75,
+  "e_angle": 90,
+  "data": {
+    "1": {
+      "desk": 3,
+      "position": -1,
+      "position_list": [1, 0.5, 0.5, 0],
+      "xmin": 0,
+      "ymin": 110,
+      "xmax": 390,
+      "ymax": 670,
+      "left_x": 0,
+      "left_y": 430,
+      "right_x": 390,
+      "right_y": 430
+    },
+    "2": {
+      "desk": 2,
+      "position": 0,
+      "position_list": [0.5, 1, 0.5, 0],
+      "xmin": 395,
+      "ymin": 110,
+      "xmax": 835,
+      "ymax": 670,
+      "left_x": 395,
+      "left_y": 450,
+      "right_x": 835,
+      "right_y": 450
+    },
+    "3": {
+      "desk": 1,
+      "position": 1,
+      "position_list": [0.5, 0.5, 1, 0],
+      "xmin": 840,
+      "ymin": 120,
+      "xmax": 1256,
+      "ymax": 670,
+      "left_x": 840,
+      "left_y": 450,
+      "right_x": 1256,
+      "right_y": 450
+    }
+  }
+},
+{
+  "_id": "camera_2",
+  "url": "D:/Wajahat/la_chunks/test_bench_3/c43-3.avi",
+  "enable": "true",
+  "cluster": "cluster_1",
+  "i_angle": 75,
+  "e_angle": 90,
+  "data": {
+    "1": {
+      "desk": 6,
+      "position": 0,
+      "position_list": [1, 0.5, 0.5, 0],
+      "xmin": 26,
+      "ymin": 90,
+      "xmax": 460,
+      "ymax": 625,
+      "left_x": 26,
+      "left_y": 445,
+      "right_x": 460,
+      "right_y": 445
+    },
+    "2": {
+      "desk": 5,
+      "position": 1,
+      "position_list": [0.5, 1, 0.5, 0],
+      "xmin": 465,
+      "ymin": 75,
+      "xmax": 895,
+      "ymax": 625,
+      "left_x": 465,
+      "left_y": 430,
+      "right_x": 895,
+      "right_y": 430
+    },
+    "3": {
+      "desk": 4,
+      "position": 2,
+      "position_list": [0.5, 0.5, 1, 0],
+      "xmin": 900,
+      "ymin": 105,
+      "xmax": 1261,
+      "ymax": 625,
+      "left_x": 900,
+      "left_y": 450,
+      "right_x": 1261,
+      "right_y": 450
+    }
+  }
+},
+{
+  "_id": "camera_3",
+  "url": "D:/Wajahat/la_chunks/test_bench_3/c36-2.avi",
+  "enable": "true",
+  "cluster": "cluster_1",
+  "i_angle": 75,
+  "e_angle": 90,
+  "data": {
+    "1": {
+      "desk": 8,
+      "position": -1,
+      "position_list": [1, 0.5, 0, 0],
+      "xmin": 200,
+      "ymin": 120,
+      "xmax": 680,
+      "ymax": 665,
+      "left_x": 200,
+      "left_y": 480,
+      "right_x": 670,
+      "right_y": 480
+    },
+    "2": {
+      "desk": 7,
+      "position": 1,
+      "position_list": [0.5, 1, 0, 0],
+      "xmin": 685,
+      "ymin": 120,
+      "xmax": 1152,
+      "ymax": 665,
+      "left_x": 685,
+      "left_y": 480,
+      "right_x": 1152,
+      "right_y": 480
+    }
+  }
+},
+{
+  "_id": "camera_4",
+  "url": "D:/Wajahat/la_chunks/test_bench_3/c15-2.avi",
+  "enable": "true",
+  "cluster": "cluster_1",
+  "i_angle": 60,
+  "e_angle": 80,
+  "data": {
+    "1": {
+      "desk": 9,
+      "position": -2,
+      "position_list": [1, 0.5, 0.5, 0.5],
+      "xmin": 0,
+      "ymin": 90,
+      "xmax": 255,
+      "ymax": 550,
+      "left_x": 0,
+      "left_y": 330,
+      "right_x": 260,
+      "right_y": 330
+    },
+    "2": {
+      "desk": 10,
+      "position": -1,
+      "position_list": [0.5, 1, 0.5, 0.5],
+      "xmin": 260,
+      "ymin": 80,
+      "xmax": 605,
+      "ymax": 550,
+      "left_x": 260,
+      "left_y": 330,
+      "right_x": 895,
+      "right_y": 330
+    },
+    "3": {
+      "desk": 11,
+      "position": 0,
+      "position_list": [0.5, 0.5, 1, 0.5],
+      "xmin": 610,
+      "ymin": 65,
+      "xmax": 950,
+      "ymax": 550,
+      "left_x": 610,
+      "left_y": 330,
+      "right_x": 950,
+      "right_y": 330
+    },
+    "4": {
+      "desk": 12,
+      "position": 2,
+      "position_list": [0.5, 0.5, 0.5, 1],
+      "xmin": 955,
+      "ymin": 80,
+      "xmax": 1279,
+      "ymax": 550,
+      "left_x": 615,
+      "left_y": 330,
+      "right_x": 1279,
+      "right_y": 330
+    }
+  }
+},
+{
+  "_id": "camera_5",
+  "url": "D:/Wajahat/la_chunks/test_bench_3/c242-1.avi",
+  "enable": "true",
+  "cluster": "cluster_1",
+  "i_angle": 60,
+  "e_angle": 80,
+  "data": {
+    "1": {
+      "desk": 13,
+      "position": -2,
+      "position_list": [1, 0.5, 0.5, 0.5],
+      "xmin": 0,
+      "ymin": 70,
+      "xmax": 256,
+      "ymax": 550,
+      "left_x": 0,
+      "left_y": 320,
+      "right_x": 256,
+      "right_y": 320
+    },
+    "2": {
+      "desk": 14,
+      "position": -1,
+      "position_list": [0.5, 1, 0.5, 0.5],
+      "xmin": 260,
+      "ymin": 60,
+      "xmax": 605,
+      "ymax": 550,
+      "left_x": 260,
+      "left_y": 310,
+      "right_x": 605,
+      "right_y": 310
+    },
+    "3": {
+      "desk": 15,
+      "position": 0,
+      "position_list": [0.5, 0.5, 1, 0.5],
+      "xmin": 610,
+      "ymin": 60,
+      "xmax": 953,
+      "ymax": 550,
+      "left_x": 633,
+      "left_y": 310,
+      "right_x": 960,
+      "right_y": 310
+    },
+    "4": {
+      "desk": 16,
+      "position": 2,
+      "position_list": [0.5, 0.5, 0.5, 1],
+      "xmin": 958,
+      "ymin": 70,
+      "xmax": 1250,
+      "ymax": 550,
+      "left_x": 950,
+      "left_y": 330,
+      "right_x": 1250,
+      "right_y": 330
+    }
+  }
+},
+{
+  "_id": "camera_6",
+  "url": "D:/Wajahat/la_chunks/test_bench_3/c61-1.avi",
+  "enable": "true",
+  "cluster": "cluster_1",
+  "i_angle": 75,
+  "e_angle": 90,
+  "data": {
+    "1": {
+      "desk": 20,
+      "position": -2,
+      "position_list": [1, 0.5, 0.5, 0.5],
+      "xmin": 11,
+      "ymin": 90,
+      "xmax": 315,
+      "ymax": 560,
+      "left_x": 11,
+      "left_y": 330,
+      "right_x": 315,
+      "right_y": 330
+    },
+    "2": {
+      "desk": 19,
+      "position": -1,
+      "position_list": [0.5, 1, 0.5, 0.5],
+      "xmin": 320,
+      "ymin": 65,
+      "xmax": 667,
+      "ymax": 570,
+      "left_x": 320,
+      "left_y": 320,
+      "right_x": 667,
+      "right_y": 320
+    },
+    "3": {
+      "desk": 18,
+      "position": 0,
+      "position_list": [0.5, 0.5, 1, 0.5],
+      "xmin": 670,
+      "ymin": 65,
+      "xmax": 1015,
+      "ymax": 570,
+      "left_x": 670,
+      "left_y": 320,
+      "right_x": 1015,
+      "right_y": 320
+    },
+    "4": {
+      "desk": 17,
+      "position": 2,
+      "position_list": [0.5, 0.5, 0.5, 1],
+      "xmin": 1020,
+      "ymin": 70,
+      "xmax": 1275,
+      "ymax": 560,
+      "left_x": 1020,
+      "left_y": 320,
+      "right_x": 1275,
+      "right_y": 320
+    }
+  }
+},
+{
+  "_id": "camera_7",
+  "url": "D:/Wajahat/la_chunks/test_bench_3/c102-2.avi",
+  "enable": "true",
+  "cluster": "cluster_1",
+  "i_angle": 75,
+  "e_angle": 90,
+  "data": {
+    "1": {
+      "desk": 24,
+      "position": -2,
+      "position_list": [1, 0.5, 0.5, 0.5],
+      "xmin": 0,
+      "ymin": 90,
+      "xmax": 282,
+      "ymax": 520,
+      "left_x": 0,
+      "left_y": 300,
+      "right_x": 282,
+      "right_y": 300
+    },
+    "2": {
+      "desk": 23,
+      "position": -1,
+      "position_list": [0.5, 1, 0.5, 0.5],
+      "xmin": 285,
+      "ymin": 70,
+      "xmax": 619,
+      "ymax": 520,
+      "left_x": 285,
+      "left_y": 300,
+      "right_x": 619,
+      "right_y": 300
+    },
+    "3": {
+      "desk": 22,
+      "position": 0,
+      "position_list": [0.5, 0.5, 1, 0.5],
+      "xmin": 621,
+      "ymin": 60,
+      "xmax": 955,
+      "ymax": 520,
+      "left_x": 621,
+      "left_y": 300,
+      "right_x": 955,
+      "right_y": 300
+    },
+    "4": {
+      "desk": 21,
+      "position": 1,
+      "position_list": [0.5, 0.5, 0.5, 1],
+      "xmin": 960,
+      "ymin": 65,
+      "xmax": 1250,
+      "ymax": 520,
+      "left_x": 960,
+      "left_y": 300,
+      "right_x": 1250,
+      "right_y": 300
+    }
+  }
+},
+{
+  "_id": "camera_8",
+  "url": "D:/Wajahat/la_chunks/test_bench_3/c112-2.avi",
+  "enable": "true",
+  "cluster": "cluster_1",
+  "i_angle": 75,
+  "e_angle": 90,
+  "data": {
+    "1": {
+      "desk": 25,
+      "position": -1,
+      "position_list": [1, 0.5, 0.5, 0],
+      "xmin": 10,
+      "ymin": 90,
+      "xmax": 430,
+      "ymax": 600,
+      "left_x": 10,
+      "left_y": 430,
+      "right_x": 430,
+      "right_y": 430
+    },
+    "2": {
+      "desk": 26,
+      "position": 0,
+      "position_list": [0.5, 1, 0.5, 0],
+      "xmin": 435,
+      "ymin": 90,
+      "xmax": 875,
+      "ymax": 600,
+      "left_x": 435,
+      "left_y": 430,
+      "right_x": 875,
+      "right_y": 430
+    },
+    "3": {
+      "desk": 27,
+      "position": 1,
+      "position_list": [0.5, 0.5, 1, 0],
+      "xmin": 880,
+      "ymin": 100,
+      "xmax": 1260,
+      "ymax": 600,
+      "left_x": 880,
+      "left_y": 430,
+      "right_x": 1260,
+      "right_y": 430
+    }
+  }
+},
+{
+  "_id": "camera_9",
+  "url": "D:/Wajahat/la_chunks/test_bench_3/c106-2.avi",
+  "cluster": "cluster_1",
+  "i_angle": 75,
+  "e_angle": 90,
+  "data": {
+    "1": {
+      "desk": 28,
+      "position": -1,
+      "position_list": [1, 0.5, 0.5, 0],
+      "xmin": 0,
+      "ymin": 105,
+      "xmax": 395,
+      "ymax": 665,
+      "left_x": 0,
+      "left_y": 450,
+      "right_x": 395,
+      "right_y": 450
+    },
+    "2": {
+      "desk": 29,
+      "position": 0,
+      "position_list": [0.5, 1, 0.5, 0],
+      "xmin": 400,
+      "ymin": 105,
+      "xmax": 861,
+      "ymax": 665,
+      "left_x": 400,
+      "left_y": 450,
+      "right_x": 861,
+      "right_y": 450
+    },
+    "3": {
+      "desk": 30,
+      "position": 1,
+      "position_list": [0.5, 0.5, 1, 0],
+      "xmin": 865,
+      "ymin": 120,
+      "xmax": 1270,
+      "ymax": 665,
+      "left_x": 865,
+      "left_y": 450,
+      "right_x": 1270,
+      "right_y": 450
+    }
+  }
+},
+{
+  "_id": "camera_10",
+  "url": "D:/Wajahat/la_chunks/test_bench_3/c9-1.avi",
+  "enable": "true",
+  "cluster": "cluster_1",
+  "i_angle": 75,
+  "e_angle": 90,
+  "data": {
+    "1": {
+      "desk": 31,
+      "position": -1,
+      "position_list": [1, 0.5, 0, 0],
+      "xmin": 45,
+      "ymin": 120,
+      "xmax": 495,
+      "ymax": 710,
+      "left_x": 55,
+      "left_y": 530,
+      "right_x": 500,
+      "right_y": 530
+    },
+    "2": {
+      "desk": 32,
+      "position": 1,
+      "position_list": [0.5, 1, 0, 0],
+      "xmin": 500,
+      "ymin": 130,
+      "xmax": 1000,
+      "ymax": 710,
+      "left_x": 505,
+      "left_y": 530,
+      "right_x": 1000,
+      "right_y": 530
+    }
+  }
+},
+{
+  "_id": "camera_11",
+  "url": "rtsp://",
+  "enable": "false",
+  "cluster": "cluster_2",
+  "data": {}
+},
+{
+  "_id": "camera_12",
+  "url": "rtsp://",
+  "enable": "false",
+  "cluster": "cluster_2",
+  "data": {}
+},
+{
+  "_id": "camera_13",
+  "url": "rtsp://",
+  "enable": "false",
+  "cluster": "cluster_2",
+  "data": {}
+},
+{
+  "_id": "camera_14",
+  "url": "rtsp://",
+  "enable": "false",
+  "cluster": "cluster_2",
+  "data": {}
+},
+{
+  "_id": "camera_15",
+  "url": "rtsp://",
+  "enable": "false",
+  "cluster": "cluster_2",
+  "data": {}
+},
+{
+  "_id": "camera_16",
+  "url": "rtsp://",
+  "enable": "false",
+  "cluster": "cluster_2",
+  "data": {}
+}]
