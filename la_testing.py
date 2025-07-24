@@ -27,10 +27,14 @@ def get_angle(x1, y1, x2, y2):
         angle_rad += 90
         return angle_rad
 
+
+# Camera Json
+
+
 if __name__ == "__main__":
 
-    model = YOLO("runs/pose/trail52/weights/best_v11_2.pt")
-    video_path = "Cam_19_10.mp4"
+    model = YOLO("C:/wajahat/looking_around_keypoint/bestv7-2.pt")
+    video_path = "C:/Users/LAMBDA THETA/Videos/chunk_18-05-25_13-35.mp4"
     cap = cv2.VideoCapture(video_path)
 
     while cap.isOpened():
@@ -71,8 +75,14 @@ if __name__ == "__main__":
                     # cv2.line(frame, (int(x_D), int(y_D)), (int(x_D) ,int(y_D - 100)), (255, 0, 0),4)  # Blue line
                     
                     center = int(x_D) , int(y_D)
-                
-                    frame_visual_area = frame
+
+                    
+
+                    # gy = ((left_y) + (right_y) / 2)
+                    # x = float(((d+b)/2 - gy) / (desk_roi[str(la)]['ymax'] - gy))
+                    # LA_angle_threshold = (149.15)*x**6 - (105.85)*x**5 - (212.34)*x**4 + (145.46)*x**3 + (87.967)*x**2 - (93.82)*x + 50.668
+
+                    # frame_visual_area = frame
                     # diff = (ymax - ymin) / 2
 
                     # if Ay and By < left_y or d and b < desk_roi[str(la)]['right_y']:
