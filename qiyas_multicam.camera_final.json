@@ -374,9 +374,9 @@
       "xmax": 1250,
       "ymax": 520,
       "left_x": 960,
-      "left_y": 300,
+      "left_y": 320,
       "right_x": 1250,
-      "right_y": 300
+      "right_y": 320
     }
   }
 },
