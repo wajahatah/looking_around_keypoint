@@ -56,11 +56,13 @@ def get_position(x,roi_data_list):
     # video_path = "C:/Users/LAMBDA THETA/Videos/evaluation/chunk_06-03-25_13-32-desk21-22-23-24 - Trim.avi"#"la_chunks_4.mp4" #"C:/Users/LAMBDA THETA/Downloads/chunk_31-10-24_14-24.avi"
     # video_path = "C:/Users/LAMBDA THETA/Downloads/test_bench_02/test_bench_02/Cam_104_batch_5_56.mp4"
     # video_path = "C:/Users/LAMBDA THETA/Downloads/test_bench_02/test_bench_02/Cam_19_10.mp4"
-video_folder = "F:/Wajahat/looking_around/may_11/Looking Around/TP"
+video_folder = "F:/Wajahat/looking_around_panic/may_11/Looking Around/TP"
+# "F:\Wajahat\looking_around_panic\may_11\Looking Around\TP"
+# video_folder = "C:/Users/LAMBDA THETA/Downloads/test"
 json_file = "qiyas_multicam.camera_final.json"
-model = YOLO("bestv8-1.pt")
+model = YOLO("bestv8-2.pt")
 
-video_files = [f for f in os.listdir(video_folder) if f.endswith(".mp4")]
+video_files = [f for f in os.listdir(video_folder) if f.endswith(".mp4") or ('.avi')]
 
 for video_file in video_files:
     video_path = os.path.join(video_folder,video_file)
@@ -165,7 +167,8 @@ for video_file in video_files:
 
                     gy = int((left_y + right_y) / 2)
                     x = float((((d+b)/2)-gy) / (ymax - gy))
-                    LA_angle_threshold = (149.15)*x**6 - (105.85)*x**5 - (212.34)*x**4 + (145.46)*x**3 + (87.967)*x**2 - (93.82)*x + 50.668
+                    # LA_angle_threshold = (149.15)*x**6 - (105.85)*x**5 - (212.34)*x**4 + (145.46)*x**3 + (87.967)*x**2 - (93.82)*x + 50.668
+                    LA_angle_threshold = (10.581)*x**6 - (25.393)*x**5 - (36.068)*x**4 + (47.076)*x**3 + (30.868)*x**2 - (45.176)*x + 61.568
                     la = False
                     if abs(angle) > LA_angle_threshold:
                         la = True
@@ -229,11 +232,11 @@ for video_file in video_files:
                 #         break
 
                 # else:
-                cv2.imshow('Pose Detection', frame)#annotated_frame)
+        cv2.imshow('Pose Detection', frame)#annotated_frame)
 
-                # Press 'q' to quit the video display
-                if cv2.waitKey(1) & 0xFF == ord('q'):
-                    break
+        # Press 'q' to quit the video display
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
 
         # Release video capture and close display window
             # print("fps =", 1.0 / (time.time() - start_time + 0.0001))
